@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import "tailwindcss";
+
+/* RTL support */
+.rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+.ltr {
+  direction: ltr;
+  text-align: left;
+}
+
+/* Arabic font support (optional) */
+
+.rtl * {
+  font-family: "Rubik", sans-serif;
+}
+.ltr * {
+  font-family: "Roboto", sans-serif;
+}
