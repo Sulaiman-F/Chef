@@ -20,7 +20,7 @@ function Home() {
       <div className="fixed top-4 right-4 z-10">
         <LanguageSwitcher />
       </div>
-      <div
+      {/* <div
         className={`fixed bottom-0 h-15 w-15 md:h-25 md:w-25 lg:h-35 lg:w-35 flex items-end p-0 md:p-2 justify-end lg:justify-start bg-[#5E5197] ${
           i18n.language === "ar"
             ? "left-0 lg:right-0 rounded-tr-full lg:rounded-tl-full lg:rounded-tr-none "
@@ -36,7 +36,7 @@ function Home() {
               : "-rotate-12 lg:rotate-12"
           }`}
         />
-      </div>
+      </div> */}
       {/* profile image */}
       <img
         src="/Chef.jpg"
@@ -62,10 +62,10 @@ function Home() {
             onClick={() =>
               window.open("https://instagram.com/instagram", "_blank")
             }
-            className="flex items-center w-full justify-between cursor-pointer border-2 border-[#5E5197]  rounded-lg  px-4 py-2 md:py-3 text-[#5E5197] hover:bg-[#5E5197]/20 transition-all duration-300 "
+            className="flex items-center w-full justify-between cursor-pointer bg-[#5E5197] rounded-lg  px-4 py-2 md:py-3 text-[#f7f7f7] hover:bg-[#5E5197]/80 transition-all duration-300 "
             aria-label="Open Instagram profile"
           >
-            <div className="h-9 w-9 md:h-12 md:w-12 lg:h-14 lg:w-14 p-1.5 md:p-2 border-2 border-[#5E5197] rounded-full flex items-center justify-center">
+            <div className="h-9 w-9 md:h-12 md:w-12 lg:h-14 lg:w-14 p-1.5 md:p-2 border-2 border-[#f7f7f7] rounded-full flex items-center justify-center">
               <FaInstagram className="text-2xl md:text-3xl lg:text-4xl" />
             </div>
             {t("instagram")}
@@ -75,10 +75,10 @@ function Home() {
             onClick={() =>
               window.open("https://www.tiktok.com/@tiktok", "_blank")
             }
-            className="flex items-center w-full justify-between cursor-pointer border-2 border-[#5E5197]  rounded-lg  px-4 py-2 md:py-3 text-[#5E5197] hover:bg-[#5E5197]/20 transition-all duration-300 "
+            className="flex items-center w-full justify-between cursor-pointer bg-[#5E5197] rounded-lg  px-4 py-2 md:py-3 text-[#f7f7f7] hover:bg-[#5E5197]/80 transition-all duration-300 "
             aria-label="Open TikTok profile"
           >
-            <div className="h-9 w-9 md:h-12 md:w-12 lg:h-14 lg:w-14 p-1.5 md:p-2 border-2 border-[#5E5197] rounded-full flex items-center justify-center">
+            <div className="h-9 w-9 md:h-12 md:w-12 lg:h-14 lg:w-14 p-1.5 md:p-2 border-2 border-[#f7f7f7] rounded-full flex items-center justify-center">
               <FaTiktok className="text-2xl md:text-3xl lg:text-4xl" />{" "}
             </div>
             {t("tiktok")}
@@ -87,10 +87,10 @@ function Home() {
 
           <button
             onClick={() => window.open("https://wa.me/966537701127", "_blank")}
-            className="flex items-center w-full justify-between cursor-pointer border-2 border-[#5E5197]  rounded-lg  px-4 py-2 md:py-3 text-[#5E5197] hover:bg-[#5E5197]/20 transition-all duration-300 "
+            className="flex items-center w-full justify-between cursor-pointer bg-[#5E5197] rounded-lg  px-4 py-2 md:py-3 text-[#f7f7f7] hover:bg-[#5E5197]/80 transition-all duration-300 "
             aria-label="Open WhatsApp chat"
           >
-            <div className="h-9 w-9 md:h-12 md:w-12 lg:h-14 lg:w-14 p-1.5 md:p-2 border-2 border-[#5E5197] rounded-full flex items-center justify-center">
+            <div className="h-9 w-9 md:h-12 md:w-12 lg:h-14 lg:w-14 p-1.5 md:p-2 border-2 border-[#f7f7f7] rounded-full flex items-center justify-center">
               <FaWhatsapp className="text-2xl md:text-3xl lg:text-4xl" />{" "}
             </div>
             {t("whatsapp")}
@@ -99,10 +99,10 @@ function Home() {
 
           <button
             onClick={() => window.open("/menu.pdf", "_blank")}
-            className="flex items-center w-full justify-between cursor-pointer border-2 border-[#5E5197]  rounded-lg  px-4 py-2 md:py-3 text-[#5E5197] hover:bg-[#5E5197]/20 transition-all duration-300 "
+            className="flex items-center w-full justify-between cursor-pointer bg-[#5E5197] rounded-lg  px-4 py-2 md:py-3 text-[#f7f7f7] hover:bg-[#5E5197]/80 transition-all duration-300 "
             aria-label="Open menu PDF"
           >
-            <div className="h-9 w-9 md:h-12 md:w-12 lg:h-14 lg:w-14 p-1.5 md:p-2 border-2 border-[#5E5197] rounded-full flex items-center justify-center">
+            <div className="h-9 w-9 md:h-12 md:w-12 lg:h-14 lg:w-14 p-1.5 md:p-2 border-2 border-[#f7f7f7] rounded-full flex items-center justify-center">
               <MdOutlineRestaurantMenu className="text-2xl md:text-3xl lg:text-4xl" />{" "}
             </div>
             {t("menu")}
