@@ -20,3 +20,10 @@
 .ltr * {
   font-family: "Roboto", sans-serif;
 }
+
+/* Global background fallback */
+html,
+body,
+#root {
+  background-color: #f7f7f7;
+}

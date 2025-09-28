@@ -13,10 +13,20 @@ const LanguageSwitcher = () => {
   return (
     <button
       onClick={toggleLanguage}
-      className="group flex items-center gap-2 p-2 bg-gray-100 hover:bg-gray-200 rounded-lg transition-all duration-300 cursor-pointer hover:scale-105 "
+      className={`group flex items-center gap-2 p-2  rounded-lg transition-all duration-300 cursor-pointer hover:scale-105 ${
+        i18n.language === "ar"
+          ? "bg-[#0A5258] hover:bg-[#0A5258]/90"
+          : "bg-[#5E5197] hover:bg-[#5E5197]/90"
+      }`}
       aria-label="Change language"
     >
-      <IoLanguage className="text-xl text-[#374151] group-hover:text-[#D97706]" />
+      <IoLanguage
+        className={`text-xl text-[#f7f7f7] ${
+          i18n.language === "ar"
+            ? "group-hover:text-[#5E5197]"
+            : "group-hover:text-[#0A5258]"
+        }`}
+      />
     </button>
   );
 };
