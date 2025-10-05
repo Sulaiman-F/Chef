@@ -8,7 +8,7 @@ import LanguageSwitcher from "../componetn/LanguageSwitcher";
 import { TextFade } from "../framer/TextFade";
 import { motion } from "framer-motion";
 import { FaLocationDot } from "react-icons/fa6";
-import { MdOutlinePolicy } from "react-icons/md";
+import { MdRequestPage } from "react-icons/md";
 
 const MotionButton = motion.button;
 function Home() {
@@ -63,17 +63,17 @@ function Home() {
         </h1>
         <p className="text-xl md:text-2xl lg:text-3xl whitespace-pre-wrap/relaxed font-[400]">
           {t("description")}
-          <br />
-          <br /> {t("description2")}
-          <br />
-          <br />
+        </p>
+        <p className="text-xl md:text-2xl lg:text-3xl whitespace-pre-wrap/relaxed font-[400]">
+          {t("description2")}
+        </p>
+        <p className="text-xl md:text-2xl lg:text-3xl whitespace-pre-wrap/relaxed font-[400]">
           <FaLocationDot className="inline-block text-[#5E5197]" />{" "}
           {t("location")}
         </p>
-
         <TextFade
           direction="up"
-          className="flex flex-col gap-4 md:gap-5 pt-5 text-xl md:text-2xl lg:text-3xl ltr font-[450]"
+          className="flex flex-col gap-4 md:gap-5  text-xl md:text-2xl lg:text-3xl ltr font-[450]"
         >
           <MotionButton
             onClick={() => window.open("https://wa.me/966502774403", "_blank")}
@@ -157,7 +157,7 @@ function Home() {
             }}
           >
             <div className="h-9 w-9 md:h-12 md:w-12 lg:h-14 lg:w-14 p-1 md:p-2 border-2 border-[#f7f7f7] rounded-full flex items-center justify-center">
-              <MdOutlinePolicy className="text-2xl md:text-3xl lg:text-4xl" />{" "}
+              <MdRequestPage className="text-2xl md:text-3xl lg:text-4xl" />{" "}
             </div>
             {t("policy")}
             <div className="h-9 w-9 md:h-12 md:w-12 lg:h-14 lg:w-14 p-1.5 md:p-2 border-2 border-[#5E5197] opacity-0"></div>
