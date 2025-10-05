@@ -6,27 +6,33 @@ import LanguageDetector from "i18next-browser-languagedetector";
 const resources = {
   en: {
     translation: {
-      welcome: "Welcome",
-      name: "Chef",
+      welcome: "Suls",
+      name: " Kitchen",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, eius autem rem magnam fugiat nulla laudantium alias numquam ratione hic doloremque, consequatur quas.",
-      instagram: "Instagram",
+        "Suls Kitchen brings local flavors with a global twist, crafted by a Saudi chef graduated in Culinary Arts from Switzerland.",
+      description2: "Distinctive dishes for your events and gatherings.",
+      location: "Riyadh | For reservations and contact via WhatsApp",
+      instagram: "Suls Kitchen",
       tiktok: "Tiktok",
       whatsapp: "Whatsapp",
       menu: "Menu",
+      policy: "Order Policy",
       language: "Language",
     },
   },
   ar: {
     translation: {
-      welcome: "مرحباً",
-      name: "الشيف",
+      welcome: "سولز",
+      name: "كتشن",
       description:
-        "لوريم إيبسوم دولور سيت أميت كونسيكتيتور أديبيسيسينغ إيليت. كونسيكتيتور، إيوس أوتيم ريم ماغنام فوغيات نولا لاوداتيوم أليوس نومكوام راتيوني هيك دولوريمكي، كونسيكواتور كاوس.",
-      instagram: "Instagram",
+        "سولز كتشن يقدم نكهات محلية بلمسة عالمية بإبداع شيف سعودي خريج فنون الطهي من سويسرا.",
+      description2: "أطباق مميزة لمناسباتكم واجتماعاتكم.",
+      location: "الرياض | للحجز والتواصل ع طريق الواتساب",
+      instagram: "Suls Kitchen",
       tiktok: "تيك توك",
       whatsapp: "واتساب",
       menu: "القائمة",
+      policy: "سياسة الطلب",
       language: "اللغة",
     },
   },
