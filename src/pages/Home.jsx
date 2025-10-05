@@ -74,7 +74,7 @@ function Home() {
         }`}
       >
         {/* Language Switcher */}
-        <div className="fixed top-4 right-4 z-10">
+        <div className="fixed top-3 right-3 z-10">
           <LanguageSwitcher />
         </div>
         {/* <div
@@ -98,22 +98,22 @@ function Home() {
         <img
           src="/profile.jpg"
           alt="Chef"
-          className={`absolute top-0 w-full  xl:w-160 object-contain drop-shadow-lg border-b-[8px] border-[#5E5197]
+          className={`absolute top-0 w-11/12  xl:w-160 object-contain drop-shadow-2xl border-b-[10px] border-[#5E5197]
           ${
             i18n.language === "ar"
-              ? "left-0 rounded-br-[15rem] rounded-bl-[1rem] md:rounded-tr-[1rem]  border-r-[3px]"
-              : "right-0 rounded-bl-[15rem] rounded-br-[1rem] md:rounded-tl-[1rem] border-l-[3px]"
+              ? "left-0 rounded-br-[12rem] rounded-bl-[1rem] md:rounded-tr-[1rem]  border-r-[4px]"
+              : "right-0 rounded-bl-[12rem] rounded-br-[1rem] md:rounded-tl-[1rem] border-l-[4px]"
           }`}
         />
 
         <TextFade
           direction="up"
-          className="w-full lg:w-2/3 flex flex-col gap-3 md:gap-5 lg:p-1 text-[#0B1215] mb-5 z-10"
+          className="w-full lg:w-2/3 flex flex-col gap-3 md:gap-5 lg:p-1 text-[#0B1215] mb-2 z-10"
         >
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight">
             <span className="text-[#5E5197]"> {t("welcome")}</span> {t("name")}
           </h1>
-          <p className="text-xl md:text-2xl lg:text-3xl whitespace-pre-wrap/relaxed font-[400]">
+          <p className="text-xl md:text-2xl lg:text-3xl whitespace-pre-wrap/relaxed font-[400] ">
             {t("description")}
           </p>
           <p className="text-xl md:text-2xl lg:text-3xl whitespace-pre-wrap/relaxed font-[400]">
@@ -221,7 +221,7 @@ function Home() {
           </TextFade>
         </TextFade>
 
-        <div className="w-full  xl:w-170 xl:h-[90vh] h-72 md:h-180 lg:h-250 flex justify-center items-center "></div>
+        <div className="w-full  xl:w-170 xl:h-[90vh] h-57 md:h-180 lg:h-250 flex justify-center items-center "></div>
       </div>
     </div>
   );
