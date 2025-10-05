@@ -129,9 +129,9 @@ function Home() {
             <div className="h-9 w-9 md:h-12 md:w-12 lg:h-14 lg:w-14 p-1.5 md:p-2 border-2 border-[#5E5197] opacity-0"></div>
           </MotionButton> */}
           <MotionButton
-            onClick={() => window.open("/menu.pdf", "_blank")}
+            onClick={() => window.open("/Menu.pdf", "_blank")}
             className="flex items-center w-full justify-between cursor-pointer bg-[#5E5197] rounded-lg  px-4 py-2 md:py-3 text-[#f7f7f7] hover:bg-[#5E5197]/90 transition-all duration-300 "
-            aria-label="Open menu PDF"
+            aria-label="Open Menu PDF"
             whileTap={{ scale: 0.98, backgroundColor: "#4A3F85" }}
             whileHover={{ scale: 1.005 }}
             transition={{
@@ -146,9 +146,9 @@ function Home() {
             <div className="h-9 w-9 md:h-12 md:w-12 lg:h-14 lg:w-14 p-1.5 md:p-2 border-2 border-[#5E5197] opacity-0"></div>
           </MotionButton>
           <MotionButton
-            onClick={() => window.open("/menu.pdf", "_blank")}
+            onClick={() => window.open("/Order-Policy.pdf", "_blank")}
             className="flex items-center w-full justify-between cursor-pointer bg-[#5E5197] rounded-lg  px-4 py-2 md:py-3 text-[#f7f7f7] hover:bg-[#5E5197]/90 transition-all duration-300 "
-            aria-label="Open menu PDF"
+            aria-label="Open Order Policy PDF"
             whileTap={{ scale: 0.98, backgroundColor: "#4A3F85" }}
             whileHover={{ scale: 1.005 }}
             transition={{
