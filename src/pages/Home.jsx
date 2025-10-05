@@ -222,7 +222,7 @@ function Home() {
         <img
           src="/profile.jpg"
           alt="Chef"
-          className={` w-12/12  xl:w-160 object-contain drop-shadow-2xl border-b-[10px] border-[#5E5197]
+          className={` w-[95%]  xl:w-160 object-contain drop-shadow-2xl border-b-[10px] border-[#5E5197]
             opacity-0
           ${
             i18n.language === "ar"
