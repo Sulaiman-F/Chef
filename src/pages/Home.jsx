@@ -96,7 +96,7 @@ function Home() {
       </div> */}
         {/* profile image */}
         <img
-          src="/profile.jpg"
+          src="/logo.png"
           alt="Chef"
           className={`absolute top-0 w-11/12   xl:w-160 object-contain drop-shadow-lg border-b-[10px] border-[#5E5197]
           ${
