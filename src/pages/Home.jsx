@@ -15,7 +15,7 @@ function Home() {
   const { t, i18n } = useTranslation();
   //00343A
   //5E5197
-
+  //#7a4c72
   return (
     <div className="min-h-screen w-full relative">
       {/* Dashed Bottom Right Fade Grid */}
@@ -96,9 +96,9 @@ function Home() {
       </div> */}
         {/* profile image */}
         <img
-          src="/logo.png"
+          src="/logo2.jpg"
           alt="Chef"
-          className={`absolute top-0 w-11/12   xl:w-160 object-contain drop-shadow-lg border-b-[10px] border-[#5E5197]
+          className={`absolute top-0 w-11/12   xl:w-160 object-contain drop-shadow-lg border-b-[10px] border-[#7a4c72]
           ${
             i18n.language === "ar"
               ? "left-0 rounded-br-[12rem] rounded-bl-[1rem] md:rounded-tr-[1rem]  border-r-[4px]"
@@ -110,7 +110,7 @@ function Home() {
           className="w-full lg:w-2/3 flex flex-col gap-3 md:gap-5 lg:p-1 text-[#0B1215] mb-2 z-10"
         >
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight">
-            <span className="text-[#5E5197]"> {t("welcome")}</span> {t("name")}
+            <span className="text-[#7a4c72]"> {t("welcome")}</span> {t("name")}
           </h1>
           <p className="text-xl md:text-2xl lg:text-3xl whitespace-pre-wrap/relaxed font-[400] ">
             {t("description")}
@@ -119,7 +119,7 @@ function Home() {
             {t("description2")}
           </p>
           <p className="text-xl md:text-2xl lg:text-3xl whitespace-pre-wrap/relaxed font-[400]">
-            <FaLocationDot className="inline-block text-[#5E5197]" />{" "}
+            <FaLocationDot className="inline-block text-[#7a4c72]" />{" "}
             {t("location")}
           </p>
           <TextFade
@@ -130,7 +130,7 @@ function Home() {
               onClick={() =>
                 window.open("https://wa.me/966502774403", "_blank")
               }
-              className="flex items-center w-full justify-between cursor-pointer bg-[#5E5197] rounded-lg  px-4 py-2 md:py-3 text-[#f7f7f7] hover:bg-[#5E5197]/90 transition-all duration-300 "
+              className="flex items-center w-full justify-between cursor-pointer bg-[#7a4c72] rounded-lg  px-4 py-2 md:py-3 text-[#f7f7f7] hover:bg-[#7a4c72]/90 transition-all duration-300 "
               aria-label="Open Instagram profile"
               whileTap={{ scale: 0.98, backgroundColor: "#4A3F85" }}
               whileHover={{ scale: 1.005 }}
@@ -143,13 +143,13 @@ function Home() {
                 <FaWhatsapp className="text-2xl md:text-3xl lg:text-4xl" />{" "}
               </div>
               {t("whatsapp")}
-              <div className="h-9 w-9 md:h-12 md:w-12 lg:h-14 lg:w-14 p-1.5 md:p-2 border-2 border-[#5E5197] opacity-0"></div>
+              <div className="h-9 w-9 md:h-12 md:w-12 lg:h-14 lg:w-14 p-1.5 md:p-2 border-2 border-[#7a4c72] opacity-0"></div>
             </MotionButton>
             <MotionButton
               onClick={() =>
                 window.open("https://www.instagram.com/suls.kitchen", "_blank")
               }
-              className="flex items-center w-full justify-between cursor-pointer bg-[#5E5197] rounded-lg  px-4 py-2 md:py-3 text-[#f7f7f7] hover:bg-[#5E5197]/90 transition-all duration-300 "
+              className="flex items-center w-full justify-between cursor-pointer bg-[#7a4c72] rounded-lg  px-4 py-2 md:py-3 text-[#f7f7f7] hover:bg-[#7a4c72]/90 transition-all duration-300 "
               aria-label="Open Instagram profile"
               whileTap={{ scale: 0.98, backgroundColor: "#4A3F85" }}
               whileHover={{ scale: 1.005 }}
@@ -162,7 +162,7 @@ function Home() {
                 <FaInstagram className="text-2xl md:text-3xl lg:text-4xl" />
               </div>
               {t("instagram")}
-              <div className="h-9 w-9 md:h-12 md:w-12 lg:h-14 lg:w-14 p-1.5 md:p-2 border-2 border-[#5E5197] opacity-0"></div>
+              <div className="h-9 w-9 md:h-12 md:w-12 lg:h-14 lg:w-14 p-1.5 md:p-2 border-2 border-[#7a4c72] opacity-0"></div>
             </MotionButton>
             {/* <MotionButton
             onClick={() =>
@@ -181,11 +181,11 @@ function Home() {
               <FaTiktok className="text-2xl md:text-3xl lg:text-4xl" />{" "}
             </div>
             {t("tiktok")}
-            <div className="h-9 w-9 md:h-12 md:w-12 lg:h-14 lg:w-14 p-1.5 md:p-2 border-2 border-[#5E5197] opacity-0"></div>
+            <div className="h-9 w-9 md:h-12 md:w-12 lg:h-14 lg:w-14 p-1.5 md:p-2 border-2 border-[#7a4c72] opacity-0"></div>
           </MotionButton> */}
             <MotionButton
               onClick={() => window.open("/Menu.pdf", "_blank")}
-              className="flex items-center w-full justify-between cursor-pointer bg-[#5E5197] rounded-lg  px-4 py-2 md:py-3 text-[#f7f7f7] hover:bg-[#5E5197]/90 transition-all duration-300 "
+              className="flex items-center w-full justify-between cursor-pointer bg-[#7a4c72] rounded-lg  px-4 py-2 md:py-3 text-[#f7f7f7] hover:bg-[#7a4c72]/90 transition-all duration-300 "
               aria-label="Open Menu PDF"
               whileTap={{ scale: 0.98, backgroundColor: "#4A3F85" }}
               whileHover={{ scale: 1.005 }}
@@ -198,11 +198,11 @@ function Home() {
                 <MdOutlineRestaurantMenu className="text-2xl md:text-3xl lg:text-4xl" />{" "}
               </div>
               {t("menu")}
-              <div className="h-9 w-9 md:h-12 md:w-12 lg:h-14 lg:w-14 p-1.5 md:p-2 border-2 border-[#5E5197] opacity-0"></div>
+              <div className="h-9 w-9 md:h-12 md:w-12 lg:h-14 lg:w-14 p-1.5 md:p-2 border-2 border-[#7a4c72] opacity-0"></div>
             </MotionButton>
             <MotionButton
               onClick={() => window.open("/Order-Policy.pdf", "_blank")}
-              className="flex items-center w-full justify-between cursor-pointer bg-[#5E5197] rounded-lg  px-4 py-2 md:py-3 text-[#f7f7f7] hover:bg-[#5E5197]/90 transition-all duration-300 "
+              className="flex items-center w-full justify-between cursor-pointer bg-[#7a4c72] rounded-lg  px-4 py-2 md:py-3 text-[#f7f7f7] hover:bg-[#7a4c72]/90 transition-all duration-300 "
               aria-label="Open Order Policy PDF"
               whileTap={{ scale: 0.98, backgroundColor: "#4A3F85" }}
               whileHover={{ scale: 1.005 }}
@@ -215,14 +215,14 @@ function Home() {
                 <MdRequestPage className="text-2xl md:text-3xl lg:text-4xl" />{" "}
               </div>
               {t("policy")}
-              <div className="h-9 w-9 md:h-12 md:w-12 lg:h-14 lg:w-14 p-1.5 md:p-2 border-2 border-[#5E5197] opacity-0"></div>
+              <div className="h-9 w-9 md:h-12 md:w-12 lg:h-14 lg:w-14 p-1.5 md:p-2 border-2 border-[#7a4c72] opacity-0"></div>
             </MotionButton>
           </TextFade>
         </TextFade>
         <img
           src="/profile.jpg"
           alt="Chef"
-          className={` w-[95%]  xl:w-160 object-contain drop-shadow-2xl border-b-[10px] border-[#5E5197]
+          className={` w-[95%]  xl:w-160 object-contain drop-shadow-2xl border-b-[10px] border-[#7a4c72]
             opacity-0
           ${
             i18n.language === "ar"
